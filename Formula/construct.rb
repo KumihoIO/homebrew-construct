@@ -1,24 +1,24 @@
 class Construct < Formula
   desc "Zero overhead. Zero compromise. 100% Rust. The fastest, smallest AI assistant."
   homepage "https://github.com/KumihoIO/construct-os"
-  version "2026.5.15"
+  version "2026.5.20"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/KumihoIO/construct-os/releases/download/v2026.5.15/construct-aarch64-apple-darwin.tar.gz"
-      sha256 "3f78a93ed87f650be63a67f97fa1febc7e17acd6a06250edd55b5b7476090d66"
+      url "https://github.com/KumihoIO/construct-os/releases/download/v2026.5.20/construct-aarch64-apple-darwin.tar.gz"
+      sha256 "b2b7a3995f1a77c647a80d99b88345d8d57f32ab196b60f1fe53118e44aeb38b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KumihoIO/construct-os/releases/download/v2026.5.15/construct-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9b99f6daabd1bd5bc6dc6f4ce8582912f4c546d5a5c46b4854e3b29d2ef4ffe6"
+      url "https://github.com/KumihoIO/construct-os/releases/download/v2026.5.20/construct-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5c918c123f1029c845103ed85e77beeeb789a20a46f6198422410eded3f2817f"
     end
     on_intel do
-      url "https://github.com/KumihoIO/construct-os/releases/download/v2026.5.15/construct-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "154916e5b2b9fa0d50df9bc156464aaa54e304827fe51447c9d718bc116cf5fd"
+      url "https://github.com/KumihoIO/construct-os/releases/download/v2026.5.20/construct-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d69aa9bf8a3b6e01196dc7f54eec0c1cf976686462c8aefda373d3c72e589ea2"
     end
   end
 
