@@ -1,24 +1,24 @@
 class Revka < Formula
   desc "Zero overhead. Zero compromise. 100% Rust. The fastest, smallest AI assistant."
   homepage "https://github.com/KumihoIO/Revka"
-  version "2026.6.17"
+  version "2026.6.20"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/KumihoIO/Revka/releases/download/v2026.6.17/revka-aarch64-apple-darwin.tar.gz"
-      sha256 "326516100bbf44f8829668c05c12bb530e0987fa38e32943105f4f315058797b"
+      url "https://github.com/KumihoIO/Revka/releases/download/v2026.6.20/revka-aarch64-apple-darwin.tar.gz"
+      sha256 "eb949e2b19cbdfb7cb7a35fbdbbeed3f485bed6846f94f069daeec444413ba55"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KumihoIO/Revka/releases/download/v2026.6.17/revka-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e434b39bbc00a999825677c08d67ab9a3d208647170041b0ba0b34c93b0884bb"
+      url "https://github.com/KumihoIO/Revka/releases/download/v2026.6.20/revka-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d76315b55ce1e0fe1eedca900316169af216dc44b3aca17aa37548c1758a542c"
     end
     on_intel do
-      url "https://github.com/KumihoIO/Revka/releases/download/v2026.6.17/revka-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8ca7bdb4888b4e7eb4518fd10080b10ceb134d5023dc6fc6b965da0c3b027f54"
+      url "https://github.com/KumihoIO/Revka/releases/download/v2026.6.20/revka-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fbbdff8a3a945bf4b94c5306e444972fc31ebc51d4338ab7be9a31623a1e342c"
     end
   end
 
